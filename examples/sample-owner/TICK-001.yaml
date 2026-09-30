@@ -1,0 +1,46 @@
+id: TICK-001
+project: ai-adoption-q4
+title: Score the 11 use cases and shortlist 3
+status: coding
+created: 2026-10-02
+updated: 2026-10-03
+parent: none
+children: []
+
+architect:
+  goal: A simple, explainable scoring of all 11 ideas so partners can see why 3 were chosen.
+  acceptance_criteria:
+    - Every idea scored on value, effort, data risk and owner availability, 1 to 5
+    - Top 3 by total, ties broken by data risk
+    - One-page summary table the owner can paste into a deck
+  touches:
+    - 01-Projects/ai-adoption-q4/use-cases.md
+  dependencies:
+    - none
+  out_of_scope: Vendor selection, costs.
+
+suggested_model:
+  builder: fable, criteria weights need judgment
+  coder: sonnet, mechanical once weights are fixed
+
+builder:
+  approach: Equal weights, data risk inverted. Pull descriptions from use-cases.md.
+  research_notes: Two ideas overlap (contract review, proposal review); score separately and flag.
+  sequence:
+    - Add a scoring table under each idea
+    - Build the summary table
+    - Flag the overlap
+  risks: Owner availability is a guess for 4 ideas; mark them and ask.
+
+coder:
+  diff_summary: pending
+  tests: pending
+  status_notes: pending
+
+history:
+  - date: 2026-10-02
+    by: architect
+    change: ticket created, status draft
+  - date: 2026-10-03
+    by: builder
+    change: plan filled, status coding

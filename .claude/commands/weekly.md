@@ -1,0 +1,1 @@
+Run the weekly review (99-Meta/skills/vault/weekly-review.md) for the current ISO week: wins, blockers, patterns, unfinished items, and anything done three times that could become a skill. Write 05-Journal/YYYY-Www-review.md. Then ask the two standing questions: what in USER_PROFILE is no longer true, and which open item should be dropped.

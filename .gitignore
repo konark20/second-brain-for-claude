@@ -1,0 +1,23 @@
+# App machinery (plugin data can hold API keys)
+.obsidian/
+.smart-env/
+.claudian/
+.trash/
+.claude/settings.local.json
+
+# Sentinel quarantine: never synced
+_local-only/
+
+# OS noise
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz

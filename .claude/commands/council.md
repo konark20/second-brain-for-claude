@@ -1,0 +1,1 @@
+Run the council (99-Meta/skills/workflow/council.md) on the decision after /council: five advisors with different angles, then a chairman verdict with one recommendation and the strongest argument against it. Use only for real decisions with uncertainty, not for facts.

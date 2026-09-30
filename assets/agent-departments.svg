@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1010" width="1600" height="1010">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbfaf7"/><stop offset="1" stop-color="#f1efe9"/></linearGradient>
+<pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#dcd8cf"/></pattern>
+<marker id="aw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#475569"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d97706"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2563eb"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#059669"/></marker>
+<marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#7c3aed"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#dc2626"/></marker>
+<marker id="as" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#64748b"/></marker>
+</defs>
+<rect width="1600" height="1010" rx="28" fill="url(#bg)"/>
+<rect width="1600" height="1010" rx="28" fill="url(#dots)" opacity="0.6"/>
+<text x="48" y="68" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#1f2937" text-anchor="start" >The departments</text>
+<text x="48" y="100" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#64748b" text-anchor="start" >14 agents, each with one job and a default model tier. The navigator decides who gets the work.</text>
+<rect x="640" y="125" width="320" height="120" rx="14" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<rect x="640" y="125" width="320" height="6" rx="3" fill="#2563eb"/>
+<text x="656" y="160" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937" text-anchor="start" >Navigator</text>
+<text x="656" y="185" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >triage only, never does the work</text>
+<text x="656" y="205" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >reads SKILL_MAP + MODEL_SELECTOR</text>
+<text x="656" y="225" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >tier: fast</text>
+<path d="M800 245 L800 280 L180.0 280 L180.0 318" fill="none" stroke="#d97706" stroke-width="2.2" marker-end="url(#ao)"  stroke-linejoin="round"/>
+<rect x="40" y="320" width="280" height="60" rx="12" fill="#d97706" fill-opacity="0.16" stroke="#d97706" stroke-width="2"/>
+<text x="180.0" y="347" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#d97706" text-anchor="middle" letter-spacing="2">PIPELINE</text>
+<text x="180.0" y="368" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#475569" text-anchor="middle" >build things right</text>
+<rect x="40" y="400" width="280" height="148" rx="14" fill="#ffffff" stroke="#d97706" stroke-opacity="0.7" stroke-width="1.6"/>
+<text x="58" y="434" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start" >architect</text>
+<rect x="254" y="416" width="52" height="24" rx="12" fill="#d97706" fill-opacity="0.2"/>
+<text x="280.0" y="433" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#d97706" text-anchor="middle" >fast</text>
+<text x="58" y="466" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#475569" text-anchor="start" >goal -> ordered tickets</text>
+<line x1="58" y1="484" x2="302" y2="484" stroke="#dcd8cf"/>
+<text x="58" y="510" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b8f96" text-anchor="start" >trigger</text>
+<text x="58" y="531" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#d97706" text-anchor="start" >/plan</text>
+<rect x="40" y="565" width="280" height="148" rx="14" fill="#ffffff" stroke="#d97706" stroke-opacity="0.7" stroke-width="1.6"/>
+<text x="58" y="599" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start" >builder</text>
+<rect x="230" y="581" width="76" height="24" rx="12" fill="#d97706" fill-opacity="0.2"/>
+<text x="268.0" y="598" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#d97706" text-anchor="middle" >careful</text>
+<text x="58" y="631" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#475569" text-anchor="start" >ticket -> exact plan</text>
+<line x1="58" y1="649" x2="302" y2="649" stroke="#dcd8cf"/>
+<text x="58" y="675" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b8f96" text-anchor="start" >trigger</text>
+<text x="58" y="696" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#d97706" text-anchor="start" >auto after architect</text>
+<rect x="40" y="730" width="280" height="148" rx="14" fill="#ffffff" stroke="#d97706" stroke-opacity="0.7" stroke-width="1.6"/>
+<text x="58" y="764" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start" >coder</text>
+<rect x="198" y="746" width="108" height="24" rx="12" fill="#d97706" fill-opacity="0.2"/>
+<text x="252.0" y="763" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#d97706" text-anchor="middle" >fast / high</text>
+<text x="58" y="796" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#475569" text-anchor="start" >plan -> tested diff</text>
+<line x1="58" y1="814" x2="302" y2="814" stroke="#dcd8cf"/>
+<text x="58" y="840" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b8f96" text-anchor="start" >trigger</text>
+<text x="58" y="861" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#d97706" text-anchor="start" >auto after builder</text>
+<path d="M800 245 L800 280 L495.0 280 L495.0 318" fill="none" stroke="#2563eb" stroke-width="2.2" marker-end="url(#ab)"  stroke-linejoin="round"/>
+<rect x="355" y="320" width="280" height="60" rx="12" fill="#2563eb" fill-opacity="0.16" stroke="#2563eb" stroke-width="2"/>
+<text x="495.0" y="347" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#2563eb" text-anchor="middle" letter-spacing="2">KNOWLEDGE</text>
+<text x="495.0" y="368" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#475569" text-anchor="middle" >find and file</text>
+<rect x="355" y="400" width="280" height="148" rx="14" fill="#ffffff" stroke="#2563eb" stroke-opacity="0.7" stroke-width="1.6"/>
+<text x="373" y="434" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start" >researcher</text>
+<rect x="545" y="416" width="76" height="24" rx="12" fill="#2563eb" fill-opacity="0.2"/>
+<text x="583.0" y="433" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#2563eb" text-anchor="middle" >careful</text>
+<text x="373" y="466" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#475569" text-anchor="start" >sourced web facts</text>
+<line x1="373" y1="484" x2="617" y2="484" stroke="#dcd8cf"/>
+<text x="373" y="510" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b8f96" text-anchor="start" >trigger</text>
+<text x="373" y="531" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#2563eb" text-anchor="start" >/research</text>
+<rect x="355" y="565" width="280" height="148" rx="14" fill="#ffffff" stroke="#2563eb" stroke-opacity="0.7" stroke-width="1.6"/>
+<text x="373" y="599" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start" >librarian</text>
+<rect x="569" y="581" width="52" height="24" rx="12" fill="#2563eb" fill-opacity="0.2"/>
+<text x="595.0" y="598" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#2563eb" text-anchor="middle" >fast</text>
+<text x="373" y="631" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#475569" text-anchor="start" >tags + indexes new things</text>
+<line x1="373" y1="649" x2="617" y2="649" stroke="#dcd8cf"/>
+<text x="373" y="675" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b8f96" text-anchor="start" >trigger</text>
+<text x="373" y="696" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#2563eb" text-anchor="start" >auto on create</text>
+<rect x="355" y="730" width="280" height="148" rx="14" fill="#ffffff" stroke="#2563eb" stroke-opacity="0.7" stroke-width="1.6"/>
+<text x="373" y="764" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start" >deck-builder</text>
+<rect x="545" y="746" width="76" height="24" rx="12" fill="#2563eb" fill-opacity="0.2"/>
+<text x="583.0" y="763" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#2563eb" text-anchor="middle" >careful</text>
+<text x="373" y="796" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#475569" text-anchor="start" >outline -> deck -> QA</text>
+<line x1="373" y1="814" x2="617" y2="814" stroke="#dcd8cf"/>
+<text x="373" y="840" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b8f96" text-anchor="start" >trigger</text>
+<text x="373" y="861" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#2563eb" text-anchor="start" >"make a deck"</text>
+<path d="M800 245 L800 280 L810.0 280 L810.0 318" fill="none" stroke="#dc2626" stroke-width="2.2" marker-end="url(#ar)"  stroke-linejoin="round"/>
+<rect x="670" y="320" width="280" height="60" rx="12" fill="#dc2626" fill-opacity="0.16" stroke="#dc2626" stroke-width="2"/>
+<text x="810.0" y="347" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#dc2626" text-anchor="middle" letter-spacing="2">HYGIENE</text>
+<text x="810.0" y="368" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#475569" text-anchor="middle" >keep it clean</text>
+<rect x="670" y="400" width="280" height="148" rx="14" fill="#ffffff" stroke="#dc2626" stroke-opacity="0.7" stroke-width="1.6"/>
+<text x="688" y="434" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start" >janitor</text>
+<rect x="884" y="416" width="52" height="24" rx="12" fill="#dc2626" fill-opacity="0.2"/>
+<text x="910.0" y="433" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#dc2626" text-anchor="middle" >fast</text>
+<text x="688" y="466" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#475569" text-anchor="start" >links, inbox, drift</text>
+<line x1="688" y1="484" x2="932" y2="484" stroke="#dcd8cf"/>
+<text x="688" y="510" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b8f96" text-anchor="start" >trigger</text>
+<text x="688" y="531" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#dc2626" text-anchor="start" >/janitor, weekly</text>
+<rect x="670" y="565" width="280" height="148" rx="14" fill="#ffffff" stroke="#dc2626" stroke-opacity="0.7" stroke-width="1.6"/>
+<text x="688" y="599" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start" >reaper</text>
+<rect x="884" y="581" width="52" height="24" rx="12" fill="#dc2626" fill-opacity="0.2"/>
+<text x="910.0" y="598" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#dc2626" text-anchor="middle" >fast</text>
+<text x="688" y="631" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#475569" text-anchor="start" >archive, then delete</text>
+<line x1="688" y1="649" x2="932" y2="649" stroke="#dcd8cf"/>
+<text x="688" y="675" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b8f96" text-anchor="start" >trigger</text>
+<text x="688" y="696" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#dc2626" text-anchor="start" >weekly, vetoable</text>
+<path d="M800 245 L800 280 L1125.0 280 L1125.0 318" fill="none" stroke="#64748b" stroke-width="2.2" marker-end="url(#as)"  stroke-linejoin="round"/>
+<rect x="985" y="320" width="280" height="60" rx="12" fill="#64748b" fill-opacity="0.16" stroke="#64748b" stroke-width="2"/>
+<text x="1125.0" y="347" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#64748b" text-anchor="middle" letter-spacing="2">SAFETY</text>
+<text x="1125.0" y="368" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#475569" text-anchor="middle" >nothing leaks</text>
+<rect x="985" y="400" width="280" height="148" rx="14" fill="#ffffff" stroke="#64748b" stroke-opacity="0.7" stroke-width="1.6"/>
+<text x="1003" y="434" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start" >sentinel</text>
+<rect x="1199" y="416" width="52" height="24" rx="12" fill="#64748b" fill-opacity="0.2"/>
+<text x="1225.0" y="433" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#64748b" text-anchor="middle" >fast</text>
+<text x="1003" y="466" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#475569" text-anchor="start" >secrets + ID firewall</text>
+<line x1="1003" y1="484" x2="1247" y2="484" stroke="#dcd8cf"/>
+<text x="1003" y="510" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b8f96" text-anchor="start" >trigger</text>
+<text x="1003" y="531" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#64748b" text-anchor="start" >/sentinel, every push</text>
+<rect x="985" y="565" width="280" height="148" rx="14" fill="#ffffff" stroke="#64748b" stroke-opacity="0.7" stroke-width="1.6"/>
+<text x="1003" y="599" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start" >git-sync</text>
+<rect x="1199" y="581" width="52" height="24" rx="12" fill="#64748b" fill-opacity="0.2"/>
+<text x="1225.0" y="598" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#64748b" text-anchor="middle" >fast</text>
+<text x="1003" y="631" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#475569" text-anchor="start" >private daily backup</text>
+<line x1="1003" y1="649" x2="1247" y2="649" stroke="#dcd8cf"/>
+<text x="1003" y="675" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b8f96" text-anchor="start" >trigger</text>
+<text x="1003" y="696" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#64748b" text-anchor="start" >scheduled</text>
+<rect x="985" y="730" width="280" height="148" rx="14" fill="#ffffff" stroke="#64748b" stroke-opacity="0.7" stroke-width="1.6"/>
+<text x="1003" y="764" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start" >github-manager</text>
+<rect x="1199" y="746" width="52" height="24" rx="12" fill="#64748b" fill-opacity="0.2"/>
+<text x="1225.0" y="763" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#64748b" text-anchor="middle" >fast</text>
+<text x="1003" y="796" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#475569" text-anchor="start" >project repos</text>
+<line x1="1003" y1="814" x2="1247" y2="814" stroke="#dcd8cf"/>
+<text x="1003" y="840" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b8f96" text-anchor="start" >trigger</text>
+<text x="1003" y="861" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#64748b" text-anchor="start" >"set up a repo"</text>
+<path d="M800 245 L800 280 L1440.0 280 L1440.0 318" fill="none" stroke="#7c3aed" stroke-width="2.2" marker-end="url(#ap)"  stroke-linejoin="round"/>
+<rect x="1300" y="320" width="280" height="60" rx="12" fill="#7c3aed" fill-opacity="0.16" stroke="#7c3aed" stroke-width="2"/>
+<text x="1440.0" y="347" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#7c3aed" text-anchor="middle" letter-spacing="2">LEARNING</text>
+<text x="1440.0" y="368" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#475569" text-anchor="middle" >get smarter</text>
+<rect x="1300" y="400" width="280" height="148" rx="14" fill="#ffffff" stroke="#7c3aed" stroke-opacity="0.7" stroke-width="1.6"/>
+<text x="1318" y="434" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start" >skill-creator</text>
+<rect x="1490" y="416" width="76" height="24" rx="12" fill="#7c3aed" fill-opacity="0.2"/>
+<text x="1528.0" y="433" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#7c3aed" text-anchor="middle" >careful</text>
+<text x="1318" y="466" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#475569" text-anchor="start" >patterns -> new skills</text>
+<line x1="1318" y1="484" x2="1562" y2="484" stroke="#dcd8cf"/>
+<text x="1318" y="510" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b8f96" text-anchor="start" >trigger</text>
+<text x="1318" y="531" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#7c3aed" text-anchor="start" >3 repeats, or ask</text>
+<rect x="1300" y="565" width="280" height="148" rx="14" fill="#ffffff" stroke="#7c3aed" stroke-opacity="0.7" stroke-width="1.6"/>
+<text x="1318" y="599" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2937" text-anchor="start" >capability-auditor</text>
+<rect x="1490" y="581" width="76" height="24" rx="12" fill="#7c3aed" fill-opacity="0.2"/>
+<text x="1528.0" y="598" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#7c3aed" text-anchor="middle" >careful</text>
+<text x="1318" y="631" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#475569" text-anchor="start" >audits the toolkit</text>
+<line x1="1318" y1="649" x2="1562" y2="649" stroke="#dcd8cf"/>
+<text x="1318" y="675" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b8f96" text-anchor="start" >trigger</text>
+<text x="1318" y="696" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#7c3aed" text-anchor="start" >/audit, monthly</text>
+<text x="48" y="980" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#8b8f96" text-anchor="start" >Tiers: fast = everyday model, careful = strongest reasoning model, high = strongest model on high-stakes tickets only. Map them in 99-Meta/MODEL_SELECTOR.md.</text>
+</svg>

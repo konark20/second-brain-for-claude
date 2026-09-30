@@ -1,0 +1,13 @@
+# One entry per application. dossier-keeper appends to history, never rewrites it.
+applications:
+  - id: company_role
+    company: <company>
+    role: <role>
+    link: <url>
+    discovered: YYYY-MM-DD
+    status: discovered   # discovered -> materials_ready -> submitted -> interview -> offer/closed
+    deadline: none
+    flags: []
+    history:
+      - date: YYYY-MM-DD
+        change: discovered

@@ -1,0 +1,1 @@
+Dispatch the question after /research to the researcher agent (99-Meta/agents/researcher.md), which runs 99-Meta/skills/workflow/web-research.md in full: split into sub-questions, open real pages, grade every finding verified / single-source / not found, and cite sources. Land a 03-Resources note if the findings are worth keeping.

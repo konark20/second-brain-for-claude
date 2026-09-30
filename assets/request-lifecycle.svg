@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbfaf7"/><stop offset="1" stop-color="#f1efe9"/></linearGradient>
+<pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#dcd8cf"/></pattern>
+<marker id="aw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#475569"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d97706"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2563eb"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#059669"/></marker>
+<marker id="ap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#7c3aed"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#dc2626"/></marker>
+<marker id="as" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#64748b"/></marker>
+</defs>
+<rect width="1600" height="900" rx="28" fill="url(#bg)"/>
+<rect width="1600" height="900" rx="28" fill="url(#dots)" opacity="0.6"/>
+<text x="48" y="68" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#1f2937" text-anchor="start" >Life of a request</text>
+<text x="48" y="100" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#64748b" text-anchor="start" >From the moment you type to the moment the brain gets a little smarter.</text>
+<rect x="40" y="330" width="170" height="120" rx="14" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+<rect x="40" y="330" width="170" height="6" rx="3" fill="#059669"/>
+<text x="56" y="365" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="start" >You</text>
+<text x="56" y="390" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >type a request, or</text>
+<text x="56" y="410" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >/brain &lt;task></text>
+<rect x="250" y="250" width="240" height="280" rx="14" fill="#ffffff" stroke="#64748b" stroke-width="2"/>
+<rect x="250" y="250" width="240" height="6" rx="3" fill="#64748b"/>
+<text x="266" y="285" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="start" >Boot</text>
+<text x="266" y="310" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >START_HERE.md</text>
+<text x="266" y="330" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >CLAUDE.md</text>
+<text x="266" y="350" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >FOUNDATION.md</text>
+<text x="266" y="370" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >USER_PROFILE.md</text>
+<text x="266" y="390" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >BOUNDARIES.md</text>
+<text x="266" y="410" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >ACTIVE_SESSION.md</text>
+<text x="266" y="430" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" ></text>
+<text x="266" y="450" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >reads who you are and</text>
+<text x="266" y="470" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >what it must never do</text>
+<rect x="530" y="330" width="210" height="120" rx="14" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<rect x="530" y="330" width="210" height="6" rx="3" fill="#2563eb"/>
+<text x="546" y="365" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="start" >Navigator</text>
+<text x="546" y="390" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >sizes the request</text>
+<text x="546" y="410" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >reads SKILL_MAP</text>
+<text x="546" y="430" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >prints the Routing: line</text>
+<rect x="790" y="150" width="320" height="110" rx="14" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<rect x="790" y="150" width="320" height="6" rx="3" fill="#2563eb"/>
+<circle cx="814" cy="180" r="13" fill="#2563eb"/>
+<text x="814" y="185" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#fbfaf7" text-anchor="middle" >1</text>
+<text x="836" y="185" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="start" >Quick question</text>
+<text x="806" y="210" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >answered directly</text>
+<text x="806" y="230" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >compressed-response for lookups</text>
+<rect x="790" y="320" width="320" height="140" rx="14" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+<rect x="790" y="320" width="320" height="6" rx="3" fill="#d97706"/>
+<circle cx="814" cy="350" r="13" fill="#d97706"/>
+<text x="814" y="355" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#fbfaf7" text-anchor="middle" >2</text>
+<text x="836" y="355" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="start" >Known job</text>
+<text x="806" y="380" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >one skill or agent does it all</text>
+<text x="806" y="400" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >capture, inbox, ingest, research,</text>
+<text x="806" y="420" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >deck, email draft, council, handoff</text>
+<rect x="790" y="500" width="320" height="70" rx="14" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+<rect x="790" y="500" width="320" height="6" rx="3" fill="#d97706"/>
+<circle cx="814" cy="530" r="13" fill="#d97706"/>
+<text x="814" y="535" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#fbfaf7" text-anchor="middle" >3</text>
+<text x="836" y="535" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="start" >Project work: ticket pipeline</text>
+<rect x="790" y="585" width="100" height="70" rx="14" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+<rect x="790" y="585" width="100" height="6" rx="3" fill="#d97706"/>
+<text x="806" y="620" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2937" text-anchor="start" >Architect</text>
+<text x="806" y="645" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748b" text-anchor="start" >what + why</text>
+<rect x="900" y="585" width="100" height="70" rx="14" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+<rect x="900" y="585" width="100" height="6" rx="3" fill="#d97706"/>
+<text x="916" y="620" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2937" text-anchor="start" >Builder</text>
+<text x="916" y="645" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748b" text-anchor="start" >exact how</text>
+<rect x="1010" y="585" width="100" height="70" rx="14" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+<rect x="1010" y="585" width="100" height="6" rx="3" fill="#d97706"/>
+<text x="1026" y="620" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f2937" text-anchor="start" >Coder</text>
+<text x="1026" y="645" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748b" text-anchor="start" >the diff</text>
+<rect x="1160" y="330" width="190" height="120" rx="14" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+<rect x="1160" y="330" width="190" height="6" rx="3" fill="#059669"/>
+<text x="1176" y="365" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="start" >Brief report</text>
+<text x="1176" y="390" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >did / needs / next</text>
+<text x="1176" y="410" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >one block per task</text>
+<rect x="1390" y="330" width="170" height="120" rx="14" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+<rect x="1390" y="330" width="170" height="6" rx="3" fill="#dc2626"/>
+<text x="1406" y="365" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="start" >Janitor</text>
+<text x="1406" y="390" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >end-of-session</text>
+<text x="1406" y="410" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >checks links, inbox,</text>
+<text x="1406" y="430" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >maps, frontmatter</text>
+<rect x="1160" y="130" width="400" height="120" rx="14" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+<rect x="1160" y="130" width="400" height="6" rx="3" fill="#dc2626"/>
+<text x="1176" y="165" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="start" >Leaving the machine?</text>
+<text x="1176" y="190" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >git-sync backup, upload, share</text>
+<text x="1176" y="210" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >sentinel scans first and blocks</text>
+<text x="1176" y="230" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >secrets and ID numbers</text>
+<rect x="1390" y="720" width="170" height="110" rx="14" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+<rect x="1390" y="720" width="170" height="6" rx="3" fill="#7c3aed"/>
+<text x="1406" y="755" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="start" >Journal</text>
+<text x="1406" y="780" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >one honest line</text>
+<text x="1406" y="800" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >per session</text>
+<rect x="1150" y="720" width="200" height="110" rx="14" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+<rect x="1150" y="720" width="200" height="6" rx="3" fill="#7c3aed"/>
+<text x="1166" y="755" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="start" >PATTERN_LOG</text>
+<text x="1166" y="780" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >no skill matched?</text>
+<text x="1166" y="800" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >log the shape</text>
+<rect x="910" y="720" width="200" height="110" rx="14" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+<rect x="910" y="720" width="200" height="6" rx="3" fill="#7c3aed"/>
+<text x="926" y="755" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="start" >skill-creator</text>
+<text x="926" y="780" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >3 of the same shape</text>
+<text x="926" y="800" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >drafts to proposed/</text>
+<rect x="640" y="720" width="230" height="110" rx="14" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+<rect x="640" y="720" width="230" height="6" rx="3" fill="#7c3aed"/>
+<text x="656" y="755" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="start" >You approve</text>
+<text x="656" y="780" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >edit or reject;</text>
+<text x="656" y="800" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >approved goes live in</text>
+<text x="656" y="820" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="start" >SKILL_MAP</text>
+<path d="M210 390 L248 390" fill="none" stroke="#475569" stroke-width="2.2" marker-end="url(#aw)"  stroke-linejoin="round"/>
+<path d="M490 390 L528 390" fill="none" stroke="#475569" stroke-width="2.2" marker-end="url(#aw)"  stroke-linejoin="round"/>
+<path d="M740 390 L765 390 L765 205 L788 205" fill="none" stroke="#2563eb" stroke-width="2.2" marker-end="url(#ab)"  stroke-linejoin="round"/>
+<path d="M740 390 L788 390" fill="none" stroke="#d97706" stroke-width="2.2" marker-end="url(#ao)"  stroke-linejoin="round"/>
+<path d="M740 390 L765 390 L765 535 L788 535" fill="none" stroke="#d97706" stroke-width="2.2" marker-end="url(#ao)"  stroke-linejoin="round"/>
+<path d="M890 620 L898 620" fill="none" stroke="#d97706" stroke-width="2" marker-end="url(#ao)"  stroke-linejoin="round"/>
+<path d="M1000 620 L1008 620" fill="none" stroke="#d97706" stroke-width="2" marker-end="url(#ao)"  stroke-linejoin="round"/>
+<path d="M1110 205 L1135 205 L1135 390 L1158 390" fill="none" stroke="#475569" stroke-width="2.2" marker-end="url(#aw)"  stroke-linejoin="round"/>
+<path d="M1110 390 L1158 390" fill="none" stroke="#475569" stroke-width="2.2" marker-end="url(#aw)"  stroke-linejoin="round"/>
+<path d="M1110 620 L1135 620 L1135 390 L1158 390" fill="none" stroke="#475569" stroke-width="2.2" marker-end="url(#aw)"  stroke-linejoin="round"/>
+<path d="M1350 390 L1388 390" fill="none" stroke="#475569" stroke-width="2.2" marker-end="url(#aw)"  stroke-linejoin="round"/>
+<path d="M1475 330 L1475 252" fill="none" stroke="#dc2626" stroke-width="2.2" marker-end="url(#ar)"  stroke-linejoin="round"/>
+<path d="M1475 450 L1475 718" fill="none" stroke="#7c3aed" stroke-width="2.2" marker-end="url(#ap)"  stroke-linejoin="round"/>
+<path d="M1390 775 L1352 775" fill="none" stroke="#7c3aed" stroke-width="2.2" marker-end="url(#ap)"  stroke-linejoin="round"/>
+<path d="M1150 775 L1112 775" fill="none" stroke="#7c3aed" stroke-width="2.2" marker-end="url(#ap)"  stroke-linejoin="round"/>
+<path d="M910 775 L872 775" fill="none" stroke="#7c3aed" stroke-width="2.2" marker-end="url(#ap)"  stroke-linejoin="round"/>
+<path d="M700 720 L700 560 L635 560 L635 452" fill="none" stroke="#7c3aed" stroke-width="2.2" marker-end="url(#ap)" stroke-dasharray="7 6" stroke-linejoin="round"/>
+<rect x="436" y="550" width="243.6" height="22" rx="6" fill="#fbfaf7" opacity="0.85"/><text x="440" y="566" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#7c3aed" text-anchor="start" >the brain now knows a new trick</text>
+<text x="48" y="870" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#8b8f96" text-anchor="start" >Size 1 needs no ceremony. Size 2 goes straight to its skill. Size 3 is scoped into tickets before anyone writes code. Every path ends with a brief report and the janitor.</text>
+</svg>

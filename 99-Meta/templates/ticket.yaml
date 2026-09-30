@@ -1,0 +1,49 @@
+id: TICK-{{number}}
+project: {{project-slug}}
+title: {{one-line summary}}
+status: draft   # draft -> specced -> coding -> review -> done -> archived
+created: {{date:YYYY-MM-DD}}
+updated: {{date:YYYY-MM-DD}}
+parent: none        # set to a TICK-NNN id if this is a sub-ticket, otherwise "none"
+children: []         # list of TICK-NNN ids if the architect split this into sub-tickets, otherwise empty
+# Sub-tickets are optional. Use them only when a ticket bundles multiple genuinely separable
+# units of work (e.g. several distinct policy behaviors landing in one file). A ticket that's
+# already one bug/one file/one fix stays a single ticket — splitting that adds ceremony, not clarity.
+
+# Filled by the architect (sonnet). What and why. No implementation detail.
+architect:
+  goal: <what this ticket accomplishes, one paragraph>
+  acceptance_criteria:
+    - <concrete, testable — not vibes>
+  touches:
+    - <file or module path this will change>
+  dependencies:
+    - <other ticket ids this needs first, or "none">
+  out_of_scope: <what this ticket explicitly does not cover>
+
+# Filled by the architect using MODEL_SELECTOR.md's decision rule. Not a fixed
+# binding — sonnet by default, upgraded to fable or opus only when the rule calls for it.
+suggested_model:
+  builder: <sonnet | fable | opus, plus a one-line why>
+  coder: <sonnet | fable | opus, plus a one-line why>
+
+# Filled by the builder (model per suggested_model.builder). How, in enough detail
+# that coder doesn't think, just types.
+builder:
+  approach: <the implementation plan, step by step>
+  research_notes: <what exploring the codebase turned up — gotchas, existing patterns to follow>
+  sequence:
+    - <ordered sub-steps>
+  risks: <edge cases, unknowns, things that could go wrong>
+
+# Filled by the coder (model per suggested_model.coder). What actually happened.
+coder:
+  diff_summary: <one line per file changed>
+  tests: <what was run/verified, pass or fail>
+  status_notes: <blockers, or deviations from the builder's plan and why>
+
+# Every status change gets one line here. Never delete history.
+history:
+  - date: {{date:YYYY-MM-DD}}
+    by: architect
+    change: ticket created, status draft

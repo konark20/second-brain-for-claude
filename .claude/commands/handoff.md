@@ -1,0 +1,1 @@
+Write or update HANDOFF.yaml for the current project with skills/project-handoff/project-handoff.md: current state, next steps in priority order, key files, how to run, conventions, errors hit and how they were fixed, changelog line. Keep current_state and next_steps accurate; do not paste code.

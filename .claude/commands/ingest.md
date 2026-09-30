@@ -1,0 +1,1 @@
+Ingest the URL after /ingest with 99-Meta/skills/vault/ingest-url.md: read the page, write a 03-Resources note (source, summary, key claims, my take placeholder), and propose links to related notes with the connect skill. Report the new file path.

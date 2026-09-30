@@ -1,0 +1,1 @@
+Process the inbox with 99-Meta/skills/vault/process-inbox.md. For each item in 00-Inbox propose a destination folder and a filename, show the list, and move only what the owner approves. Report: <n> moved, <n> kept, <n> archived.
