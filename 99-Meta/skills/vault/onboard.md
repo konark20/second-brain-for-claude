@@ -1,7 +1,7 @@
 ---
 name: onboard
-version: 2.0.0
-trigger: first session in a new copy (99-Meta/onboarding/progress.yaml says not_started), an interrupted interview (in_progress), USER_PROFILE still has {{placeholders}}, or the owner says /onboard, "run the onboarding interview", "redo <module>"
+version: 2.1.0
+trigger: first session in a new copy (99-Meta/onboarding/progress.yaml says not_started), an interrupted interview (in_progress), USER_PROFILE still has {{placeholders}}, or the owner says /onboard, "run the onboarding interview", "redo <module>", or `/onboard migrate` in a vault that already has a profile
 inputs: 99-Meta/onboarding/questions.yaml, progress.yaml, welcome.md, portrait-template.md, USER_PROFILE.md, BOUNDARIES.md, templates/project-hub.md, templates/daily.md
 outputs: filled USER_PROFILE.md, owner section of BOUNDARIES.md (approved), up to five project hubs, 02-Areas/writing/voice.md (deep mode), 99-Meta/onboarding/portrait.md, PATTERN_LOG seed rows, today's journal entry, progress.yaml kept current
 depends_on: daily, librarian, brief, calibrate
@@ -67,6 +67,17 @@ Some questions are exercises (`exercise:`). They teach the brain faster than des
 - If the owner volunteers one of these, do not write it anywhere. Say once, kindly, that it will not be stored, and move on.
 - Never label the owner with a personality type or psychological trait. Record only what they said about themselves, in their words.
 - Names of other people: roles only, unless the owner asks to store names for drafting.
+
+## Migrate mode (a vault that already has a profile)
+
+For an existing vault, or an owner upgrading from an older template, `/onboard migrate` avoids asking what is already known.
+
+1. Read USER_PROFILE, BOUNDARIES (owner section), project hubs, the last month of journal entries and PATTERN_LOG.
+2. Map what exists to modules in `questions.yaml`. A module counts as covered when its key questions are already answered in the owner's own words. List covered, partly covered and missing modules for the owner in one short table.
+3. Draft the portrait from the existing files only and show it for correction. Quote the source line for anything non-obvious.
+4. Set `progress.yaml` to `mode: deep`, `status: in_progress`, with covered modules in `completed_modules`, and `migrated: <date>`.
+5. Hand over to [[calibrate]] for the first round, which picks from the missing modules and from corrections visible in the journal.
+6. The remaining missing modules are asked a few at a time in later calibrate rounds, never as one long interview, unless the owner asks for `/onboard deep`.
 
 ## Setting it up for someone else
 

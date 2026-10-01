@@ -29,13 +29,14 @@ Full boot (START_HERE, CLAUDE.md, FOUNDATION, USER_PROFILE, BOUNDARIES, ACTIVE_S
 /brain turn my notes from today's three client calls into action items per client
 ```
 
-### `/onboard [quick | standard | deep | resume | redo <module>]`
+### `/onboard [quick | standard | deep | resume | migrate | redo <module>]`
 Runs the first-run interview. On a fresh vault it starts by itself; this command starts or resumes it. One question at a time, suggested answers, progress saved after every answer, a portrait at the end. See [onboarding-interview.md](onboarding-interview.md).
 
 ```text
 /onboard deep
 /onboard resume
 /onboard redo communication
+/onboard migrate        # vault that already has a profile
 ```
 
 ### `/calibrate`

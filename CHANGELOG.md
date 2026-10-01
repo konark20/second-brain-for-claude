@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.0 (2026-10-01)
+
+- `/onboard migrate`: upgrades a vault that already has a profile. Maps existing files to interview modules, drafts the portrait from them, and calibrates only the gaps.
+- New question `feedback.scope` (how far to apply a narrow instruction), now part of the standard interview. Found by the first real migrate run.
+- `assets/onboarding-journey.svg`: the whole onboarding journey in one diagram, also in the README.
+- onboard skill 2.1.0; question bank 2.1.0 (76 questions).
+
 ## 1.1.0 (2026-10-01)
 
 - First-run onboarding: a fresh vault greets the owner and starts the interview by itself (SessionStart hook in Claude Code; first-run rule in CLAUDE.md, AGENTS.md and START_HERE for every other surface).

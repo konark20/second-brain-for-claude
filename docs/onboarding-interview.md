@@ -2,9 +2,11 @@
 
 The first time anyone connects a fresh copy of this vault, the brain interviews them before it does any work. It asks one question at a time, offers suggested answers, saves progress after every answer, and can take as long as the person likes across as many sittings as they want. At the end it writes a one-page portrait of how they work and asks them to correct it. After that, short weekly tuning keeps the profile true.
 
-Everything here is driven by one file, [`99-Meta/onboarding/questions.yaml`](../99-Meta/onboarding/questions.yaml): 21 modules, 75 questions and 30 role-specific questions. To change the interview for everyone, edit that file. No procedure changes needed.
+Everything here is driven by one file, [`99-Meta/onboarding/questions.yaml`](../99-Meta/onboarding/questions.yaml): 21 modules, 76 questions and 30 role-specific questions. To change the interview for everyone, edit that file. No procedure changes needed.
 
 ## How it starts
+
+![The onboarding journey](../assets/onboarding-journey.svg)
 
 ```mermaid
 flowchart TD
@@ -14,7 +16,7 @@ flowchart TD
     P -->|complete| N[Normal session:<br/>profile + portrait loaded]
     W --> M{Mode}
     M -->|Quick ~15 min| Q[7 modules]
-    M -->|Standard ~45 min| S[12 modules]
+    M -->|Standard ~45 min| S[13 modules]
     M -->|Deep, 3 to 5 sittings| D[21 modules incl.<br/>thinking, voice, goals,<br/>role pack]
     Q & S & D --> L[One question at a time<br/>suggested answers + own words<br/>progress saved every answer]
     L --> F[Show exact lines,<br/>write after yes]
@@ -38,7 +40,7 @@ The exact opening lives in [`99-Meta/onboarding/welcome.md`](../99-Meta/onboardi
 | Mode | Time | Covers | Best for |
 |---|---|---|---|
 | Quick | about 15 minutes | Who you are, how to talk to you, hard rules, projects, first win, portrait | Trying it out |
-| Standard | about 45 minutes, 1 or 2 sittings | Quick plus your week, domains, recurring work, tools, check-ins | Most people |
+| Standard | about 45 minutes, 1 or 2 sittings | Quick plus your week, feedback and instruction scope, domains, recurring work, tools, check-ins | Most people |
 | Deep | 90 to 150 minutes over 3 to 5 sittings | Standard plus how you think and decide, working style, feedback, writing voice, people, goals, growth, small preferences, a role pack | Anyone who will use it daily; the brain becomes noticeably more "you" |
 
 You can start Quick and go deeper later: `/onboard deep` picks up the modules you have not done.
@@ -98,6 +100,18 @@ Some answers are easier to show than to describe, so the interview includes thre
 ## The portrait
 
 At the end, the brain fills [`portrait-template.md`](../99-Meta/onboarding/portrait-template.md) and asks "What's wrong, missing or overstated?" The corrected version is saved as `99-Meta/onboarding/portrait.md` and read at the start of every session alongside the profile. Sections: in one paragraph, talk to me like this, how I decide, how I work, never, what I'm working on, what you can take off my plate, things I'm still learning about you. See it anytime with `/portrait`.
+
+## Upgrading a vault that already has a profile
+
+`/onboard migrate` is for an owner who set up the brain before this interview existed, or who filled their profile by hand. Instead of asking everything again it:
+
+1. reads the profile, boundaries, project hubs, journal and pattern log;
+2. shows a table of which interview modules are already covered, partly covered or missing;
+3. drafts the portrait from what the files already say, quoting sources, and asks for corrections;
+4. sets progress to deep mode with the covered modules marked done;
+5. starts the first calibrate round on the gaps, with evidence from the journal.
+
+The first migrate was run on the original author's own vault: 8 of 21 modules were already covered. The first calibrate round asked three things (how far to apply a narrow instruction, how to push back, what would make the next three months a success), each backed by a real incident from the journal. The instruction-scope question proved so useful that it is now part of every standard interview.
 
 ## After onboarding: calibrate
 
@@ -272,13 +286,14 @@ Modes: deep. Writes to: `99-Meta/USER_PROFILE.md#work-style`.
 
 ### Feedback and disagreement (`feedback`)
 
-Modes: deep. Writes to: `99-Meta/USER_PROFILE.md#communication`.
+Modes: standard, deep. Writes to: `99-Meta/USER_PROFILE.md#communication`.
 
 | # | Question | Suggested answers |
 |---|---|---|
 | 1 | If I think you're making a mistake, how should I say it? | Bluntly / Directly but politely / Ask a question that makes me see it / Only if it really matters |
-| 2 | When I review your work, what do you want? | Only the top three fixes / Everything I find / Mark it up as a diff / Rewrite it, then show me |
-| 3 | When I get something wrong about you, how should I learn from it? | Update the profile and tell me / Update silently / Ask before changing anything |
+| 2 | When you give me a narrow instruction (for example, bold this one point), how far should I apply it? | Exactly where I said / Do that, then ask before widening / Apply wherever it clearly fits, tell me after |
+| 3 | When I review your work, what do you want? | Only the top three fixes / Everything I find / Mark it up as a diff / Rewrite it, then show me |
+| 4 | When I get something wrong about you, how should I learn from it? | Update the profile and tell me / Update silently / Ask before changing anything |
 
 ### Your writing voice (`voice`)
 

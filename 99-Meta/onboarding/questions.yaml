@@ -14,7 +14,7 @@
 #   follow_up    one probing question Claude asks only if the answer is short or vague
 #   exercise     a calibration exercise instead of a plain question (see onboard.md)
 
-version: 2.0.0
+version: 2.1.0
 
 privacy:
   never_ask: [health or medical details, religion, politics, sexuality, ethnicity or caste,
@@ -31,7 +31,7 @@ modes:
   standard:
     minutes: 45
     sittings: 1-2
-    modules: [welcome, identity, role_week, communication, domains, rules, projects, recurring, tools, rhythm, first_win, portrait]
+    modules: [welcome, identity, role_week, communication, feedback, domains, rules, projects, recurring, tools, rhythm, first_win, portrait]
   deep:
     minutes: 90-150
     sittings: 3-5
@@ -289,6 +289,10 @@ modules:
       - id: feedback.pushback
         ask: If I think you're making a mistake, how should I say it?
         suggestions: ["Bluntly", "Directly but politely", "Ask a question that makes me see it", "Only if it really matters"]
+      - id: feedback.scope
+        ask: When you give me a narrow instruction (for example, bold this one point), how far should I apply it?
+        why: Applying a narrow instruction everywhere is the most common way an assistant oversteps.
+        suggestions: ["Exactly where I said", "Do that, then ask before widening", "Apply wherever it clearly fits, tell me after"]
       - id: feedback.review
         ask: When I review your work, what do you want?
         suggestions: ["Only the top three fixes", "Everything I find", "Mark it up as a diff", "Rewrite it, then show me"]

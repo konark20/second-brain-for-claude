@@ -6,9 +6,9 @@ Two kinds of version matter here: the version of each agent or skill file, and t
 
 | Item | Version | Date |
 |---|---|---|
-| Template | 1.1.0 | 2026-10-01 |
+| Template | 1.2.0 | 2026-10-01 |
 | FOUNDATION | 1.0-template | 2026-10-01 |
-| Every agent and skill file | 1.0.0 (the `version:` line in its frontmatter); onboard 2.0.0, calibrate 1.0.0 | 2026-10-01 |
+| Every agent and skill file | 1.0.0 (the `version:` line in its frontmatter); onboard 2.1.0, calibrate 1.0.0, question bank 2.1.0 | 2026-10-01 |
 
 Versioning rule for contributors: bump the patch number (1.0.1) for wording fixes, the minor number (1.1.0) when a procedure step changes, and the major number (2.0.0) when a trigger, input or output changes, because that can change routing. Log it in [CHANGELOG.md](../CHANGELOG.md).
 
@@ -66,3 +66,4 @@ The author compared tiers on real tasks (a concept note, a bounded coding ticket
 | 2026-09-23 | Routing line required as the first line of every reply; LinkedIn sub-brain |
 | 2026-10-01 | Public template 1.0.0: onboarding, packs, docs |
 | 2026-10-01 | 1.1.0: first-run interview with modes, suggestions, resume, portrait and calibrate |
+| 2026-10-01 | 1.2.0: migrate mode for existing vaults; instruction-scope question; onboarding diagram |

@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version 1.1.0" src="https://img.shields.io/badge/version-1.1.0-475569">
+  <img alt="Version 1.2.0" src="https://img.shields.io/badge/version-1.2.0-475569">
   <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-6366f1">
   <img alt="Works with Claude Code" src="https://img.shields.io/badge/Claude%20Code-ready-f59e0b">
   <img alt="Works with Obsidian" src="https://img.shields.io/badge/Obsidian-vault-7c3aed">
@@ -96,6 +96,12 @@ flowchart LR
   <img src="assets/agent-departments.svg" alt="Fourteen agents in five departments: pipeline, knowledge, hygiene, safety, learning" width="100%">
 </p>
 
+### How it gets to know you
+
+<p align="center">
+  <img src="assets/onboarding-journey.svg" alt="The onboarding journey: welcome, interview loop with suggestions and saved progress, exercises, writing with approval, portrait, first win, weekly calibrate, and migrate for existing vaults" width="100%">
+</p>
+
 ### How it learns you
 
 <p align="center">
@@ -138,7 +144,7 @@ Slash commands work in Claude Code. On other surfaces, say the same thing in pla
 | Command | What it does | Example |
 |---|---|---|
 | `/brain <task>` | Full boot, routes the task, reports briefly | `/brain summarise this week's client emails into a status note` |
-| `/onboard` | First-run interview: quick, standard or deep; resumable | `/onboard deep`, `/onboard resume` |
+| `/onboard` | First-run interview: quick, standard or deep; resumable; `migrate` for existing vaults | `/onboard deep`, `/onboard resume`, `/onboard migrate` |
 | `/calibrate` | Two or three tuning questions based on your week | `/calibrate` |
 | `/portrait` | Show and correct the one-page "how I work with you" | `/portrait` |
 | `/cold-start` | One-line health check: profile, rules, inbox, journal | `/cold-start` |
@@ -170,7 +176,7 @@ Details, variations and what each produces: [docs/commands.md](docs/commands.md)
 | Trading pack | 0 | 10 | `packs/trading/` |
 | Total | 17 | 61 | plus 20 slash commands |
 
-Every agent and skill file carries a `version:` line (1.0.0; onboard is 2.0.0 since release 1.1.0). Agents also name a model tier; the author ran them on Claude Sonnet 5.5 (fast), Claude Fable 5.1 (careful) and Claude Opus 5.5 (high stakes). Full table and how to remap: [docs/versions.md](docs/versions.md). What each pack does, plus the advanced agents not shipped yet: [docs/packs.md](docs/packs.md).
+Every agent and skill file carries a `version:` line (1.0.0; onboard is 2.1.0). Agents also name a model tier; the author ran them on Claude Sonnet 5.5 (fast), Claude Fable 5.1 (careful) and Claude Opus 5.5 (high stakes). Full table and how to remap: [docs/versions.md](docs/versions.md). What each pack does, plus the advanced agents not shipped yet: [docs/packs.md](docs/packs.md).
 
 ## What to tell it about you
 
