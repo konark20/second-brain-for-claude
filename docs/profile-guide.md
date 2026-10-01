@@ -1,6 +1,6 @@
 # What to tell it about a person
 
-The brain is only as good as what it knows about its owner. This page lists what to give it, why each piece matters, and what never to give it. The onboarding interview asks for all of this; you can also fill `99-Meta/USER_PROFILE.md` by hand.
+The brain is only as good as what it knows about its owner. This page lists what to give it, why each piece matters, and what never to give it. The onboarding interview asks for all of this, one question at a time with suggested answers; every question is listed in [onboarding-interview.md](onboarding-interview.md). You can also fill `99-Meta/USER_PROFILE.md` by hand.
 
 ## The short version
 

@@ -1,0 +1,1 @@
+Show 99-Meta/onboarding/portrait.md, the one-page "how I work with you" summary. If it does not exist yet, offer /onboard. Ask: "What's wrong, missing or overstated?" Apply corrections as a diff to portrait.md and USER_PROFILE.md after the owner says yes.

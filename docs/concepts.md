@@ -31,7 +31,7 @@ flowchart TB
     end
     subgraph L3[Layer 3: Tools]
         AG[14 agents]
-        SK[39 skills]
+        SK[40 skills]
         CODE[code/ scripts]
     end
     subgraph L1[Layer 1: Inner self]

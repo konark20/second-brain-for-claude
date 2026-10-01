@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PROJECT_DIR}/code/onboarding/first_run_check.py\" || python \"${CLAUDE_PROJECT_DIR}/code/onboarding/first_run_check.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

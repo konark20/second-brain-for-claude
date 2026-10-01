@@ -8,7 +8,7 @@ updated: "{{DATE}}"
 
 # User Profile
 
-> Layer 1. Loaded at the start of every session. Filled by the onboarding interview (`/onboard`), then edited by the owner as things change. Anything still in `{{braces}}` has not been answered yet. Claude never fills a placeholder with a guess.
+> Layer 1. Loaded at the start of every session. Filled by the onboarding interview (`/onboard`, questions in `99-Meta/onboarding/questions.yaml`), kept current by `/calibrate`, and edited by the owner as things change. Anything still in `{{braces}}` has not been answered yet. Claude never fills a placeholder with a guess.
 
 ## Who {{OWNER_NAME}} is
 
@@ -54,7 +54,37 @@ Reference material they return to, and where it lives: {{REFERENCE_MATERIAL}}
 - New skill proposals: {{SKILL_PROPOSALS}}
 - Hygiene sweep: {{JANITOR_CADENCE}}
 
+## How they think and decide (deep mode)
+
+- What they want from me on decisions: {{DECISION_HELP}}
+- What convinces them: {{EVIDENCE}}
+- Risk appetite for suggestions: {{RISK}}
+- Plan first or start and adjust: {{PLANNING}}
+
+## Working style (deep mode)
+
+- Best focus time: {{FOCUS_TIME}}
+- Interruptions: {{INTERRUPTIONS}}
+- Check-in size: {{CHUNK_SIZE}}
+- Deadlines: {{DEADLINE_STYLE}}
+- Pushback style: {{PUSHBACK}}
+- Review style: {{REVIEW_STYLE}}
+
+## People (roles, deep mode)
+
+| Role | Formality | Notes |
+|---|---|---|
+
+## Goals and growth (deep mode)
+
+- Next three months: {{GOALS_QUARTER}}
+- This year: {{GOALS_YEAR}}
+- Wants to get better at: {{GROWTH}}
+- Learns best by: {{LEARNING_STYLE}}
+
 ## Links
+
+- [[portrait]] (one-page summary, written at the end of onboarding)
 
 - [[FOUNDATION]]
 - [[BOUNDARIES]]

@@ -40,7 +40,7 @@ claude
 
 Claude Code reads `CLAUDE.md` automatically, so the routing rule is active from the first message. The slash commands in `.claude/commands/` appear when you type `/`.
 
-Type:
+Claude Code runs a start-up hook that notices a fresh vault, so the brain greets you and offers the interview by itself. You can also type:
 
 ```text
 /onboard
@@ -78,7 +78,7 @@ claude.ai cannot write to a folder on your disk, so this path is best for trying
 
 ## Step 3. The onboarding interview
 
-Claude asks nine short blocks of questions. You can answer in a word, paste text, or say "skip". After each block it shows the exact lines it will write and asks before writing.
+On a fresh vault the brain starts this by itself. Pick quick (15 minutes), standard (45) or deep (a few sittings). It asks one question at a time with suggested answers, saves progress after every answer, and shows the exact lines before writing. You can answer in a word, paste text, or say "skip" or "stop for today". The table below is the standard mode; deep mode adds how you think and decide, working style, feedback, writing voice, people, goals, growth and a role pack.
 
 | Block | About | Goes into |
 |---|---|---|

@@ -32,7 +32,8 @@ owner: system
 
 | Name | One line | Use when | Do NOT use when | Produces |
 |---|---|---|---|---|
-| [[onboard]] | Interview a new owner and write their profile, rules and first hubs | First session in a new copy; /onboard | Small profile edits | USER_PROFILE, BOUNDARIES owner section, hubs |
+| [[onboard]] | First-run interview: quick, standard or deep, suggestions on every question, resumable, ends with a portrait | First session in a new copy (auto), /onboard | Small profile edits; weekly tuning (calibrate) | USER_PROFILE, BOUNDARIES owner section, hubs, voice, portrait |
+| [[calibrate]] | Two or three tuning questions a week from what actually happened | Weekly; after a correction; /calibrate | Mid-task; re-asking declined questions | Approved profile and portrait diffs |
 | [[context-loader]] | Session-start ritual | Start of any vault session | Never skipped | One-line status |
 | [[capture]] | Quick note dump into the Inbox with frontmatter | Any fleeting thought or link | Content already has a home | Inbox note |
 | [[process-inbox]] | Classify inbox items, propose destinations, move on approval | Inbox has items; daily | Auto-filing without approval | Empty inbox |
@@ -99,7 +100,9 @@ Full Claude skills that travel with the vault. Rename `<name>.md` to `SKILL.md` 
 | Command | Points at |
 |---|---|
 | /brain | Full boot plus routing, then the task |
-| /onboard | [[onboard]] |
+| /onboard | [[onboard]] (quick, standard, deep, resume, redo) |
+| /calibrate | [[calibrate]] |
+| /portrait | 99-Meta/onboarding/portrait.md |
 | /cold-start | [[context-loader]] |
 | /daily | [[daily]] |
 | /capture | [[capture]] |
@@ -124,6 +127,7 @@ Full Claude skills that travel with the vault. Rename `<name>.md` to `SKILL.md` 
 | `code/capability-audit/scan.py` | Read-only inventory and drift scan used by capability-auditor |
 | `code/ticket-sweep/sweep_tickets.py` | Writes `99-Meta/generated/TICKET_STATUS.md` |
 | `code/link-suggester/` | Suggests wikilinks into the Inbox, used by janitor weekly |
+| `code/onboarding/first_run_check.py` | SessionStart hook: first-run welcome or resume notice |
 
 ## Optional packs (packs/)
 

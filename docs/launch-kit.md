@@ -79,7 +79,7 @@ prompts and worked examples in the repo.
 
 ```text
 Title: I turned my Claude + Obsidian setup into an open template: 14 agents,
-39 skills, an onboarding interview, and a loop that learns new skills from
+40 skills, a first-run interview, and a loop that learns new skills from
 what you repeat
 
 Body: what it is (3 lines), the anatomy diagram, what's different (routing

@@ -15,10 +15,14 @@ tags: [entry-point, bootstrap]
 
 That line plus the task is the whole bootstrap. In Claude Code, `/brain <task>` does the same thing.
 
+## First run
+
+If `99-Meta/onboarding/progress.yaml` says `not_started`, stop here: greet the owner with `99-Meta/onboarding/welcome.md` and run the onboarding interview (`99-Meta/skills/vault/onboard.md`). It asks one question at a time with suggested answers, saves progress after every answer, and can resume across sessions. If it says `in_progress`, offer to resume after the current task.
+
 ## Read in this order
 
 1. `99-Meta/FOUNDATION.md`: the constitution. If it is missing or unreadable, stop and tell the owner.
-2. `99-Meta/USER_PROFILE.md`: who the owner is and how they want to be spoken to. If it still has `{{placeholders}}`, offer to run the onboarding interview before anything else.
+2. `99-Meta/USER_PROFILE.md` and, once it exists, `99-Meta/onboarding/portrait.md`: who the owner is and how they want to be spoken to.
 3. `99-Meta/BOUNDARIES.md`: hard rules, non-negotiable.
 4. `99-Meta/ACTIVE_SESSION.md`: check for another assistant writing right now.
 5. `99-Meta/VAULT_MAP.md`: where things live.

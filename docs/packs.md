@@ -1,10 +1,10 @@
 # Packs and advanced agents
 
-The core ships 14 agents and 39 skills that every owner needs. The original private vault grew more: sub-brains for a job search, LinkedIn and a live trading book, plus a parallel-execution layer. They are included here as optional packs, generalised so they work for anyone, and explained below.
+The core ships 14 agents and 40 skills that every owner needs. The original private vault grew more: sub-brains for a job search, LinkedIn and a live trading book, plus a parallel-execution layer. They are included here as optional packs, generalised so they work for anyone, and explained below.
 
 ```mermaid
 flowchart TB
-    CORE[(Core brain<br/>14 agents, 39 skills)]
+    CORE[(Core brain<br/>14 agents, 40 skills)]
     subgraph JS[job-search pack]
         JC[job-coordinator] --> JD[jd-decoder] & PO[project-organiser] & BW[bullet-writer] & NM[number-miner]
         JC --> RL[resume-layout] & RC[resume-critic] & ID[interview-defender] & DK[dossier-keeper]
@@ -98,8 +98,8 @@ Kept here so the history makes sense. Restore any of them by writing the file ba
 
 | | Agents | Skills |
 |---|---|---|
-| Core | 14 | 39 |
+| Core | 14 | 40 |
 | job-search pack | 2 | 7 |
 | linkedin pack | 1 | 4 |
 | trading pack | 0 | 10 |
-| All shipped | 17 | 60 |
+| All shipped | 17 | 61 |

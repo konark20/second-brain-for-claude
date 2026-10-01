@@ -1,0 +1,16 @@
+# Onboarding state. Written by the onboard skill after every answered question,
+# so the interview can stop at any point and resume in a later session.
+# status: not_started | in_progress | complete
+status: not_started
+mode: none            # quick | standard | deep
+started: none
+last_session: none
+sittings: 0
+answer_style: none    # options | free | mix | paste
+language: none
+completed_modules: []
+current_module: none
+current_question: none
+skipped: []           # question ids the owner skipped; asked again later, gently, once
+pending_writes: []    # drafted lines the owner has not yet approved
+next_sitting_note: none

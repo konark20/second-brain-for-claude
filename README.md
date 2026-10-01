@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-475569">
+  <img alt="Version 1.1.0" src="https://img.shields.io/badge/version-1.1.0-475569">
   <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-6366f1">
   <img alt="Works with Claude Code" src="https://img.shields.io/badge/Claude%20Code-ready-f59e0b">
   <img alt="Works with Obsidian" src="https://img.shields.io/badge/Obsidian-vault-7c3aed">
@@ -115,7 +115,7 @@ flowchart LR
 | claude.ai | Create a Project, upload `CLAUDE.md` and everything in `99-Meta/`, paste the boot prompt |
 | Obsidian | Open the folder as a vault to browse; use one of the above to talk to it |
 
-**3. Onboard.** In Claude Code type `/onboard`. Anywhere else, send:
+**3. Let it interview you.** The first time you open the folder, the brain greets you and starts an interview on its own (in Claude Code a start-up hook triggers it; elsewhere `CLAUDE.md` tells it to). You can also type `/onboard`. In the desktop app or claude.ai, send:
 
 ```text
 This is my second-brain vault. Read 99-Meta/START_HERE.md in full, then FOUNDATION,
@@ -125,7 +125,7 @@ State routing as the first line. Obey BOUNDARIES. Report in brief format.
 Task: run the onboarding interview.
 ```
 
-Claude interviews you in nine short blocks (who you are, how to talk to you, your domains, your hard rules, current projects, what repeats, your tools, check-in cadence, and one "first win" task), shows you every line before it writes it, and sets up your first project hubs. Budget 30 to 45 minutes, or split it into three sittings.
+Pick a depth: quick (15 minutes), standard (45 minutes) or deep (a few sittings, covering how you think and decide, your writing voice and your goals). It asks one question at a time with suggested answers you can click or ignore, saves progress after every answer so you can stop and resume anytime, shows every line before writing it, and ends with a one-page portrait of how you work for you to correct. After that, `/calibrate` asks two or three tuning questions a week. Every question: [docs/onboarding-interview.md](docs/onboarding-interview.md).
 
 **4. Use it for two weeks with the defaults.** Capture freely, `/inbox` once a day, `/weekly` on Fridays or Sundays. Then let skill-creator propose skills from what you actually did.
 
@@ -138,7 +138,9 @@ Slash commands work in Claude Code. On other surfaces, say the same thing in pla
 | Command | What it does | Example |
 |---|---|---|
 | `/brain <task>` | Full boot, routes the task, reports briefly | `/brain summarise this week's client emails into a status note` |
-| `/onboard` | Nine-block interview that writes your profile and rules | `/onboard` |
+| `/onboard` | First-run interview: quick, standard or deep; resumable | `/onboard deep`, `/onboard resume` |
+| `/calibrate` | Two or three tuning questions based on your week | `/calibrate` |
+| `/portrait` | Show and correct the one-page "how I work with you" | `/portrait` |
 | `/cold-start` | One-line health check: profile, rules, inbox, journal | `/cold-start` |
 | `/daily` | Create or open today's journal, carry over yesterday | `/daily` |
 | `/capture <text>` | Drop a thought into the Inbox, no filing decisions | `/capture idea: offer a half-day AI workshop to clients` |
@@ -162,13 +164,13 @@ Details, variations and what each produces: [docs/commands.md](docs/commands.md)
 
 | | Agents | Skills | Where |
 |---|---|---|---|
-| Core | 14 | 39 | `99-Meta/`, `skills/` |
+| Core | 14 | 40 | `99-Meta/`, `skills/` |
 | Job-search pack | 2 | 7 | `packs/job-search/` |
 | LinkedIn pack | 1 | 4 | `packs/linkedin/` |
 | Trading pack | 0 | 10 | `packs/trading/` |
-| Total | 17 | 60 | plus 18 slash commands |
+| Total | 17 | 61 | plus 20 slash commands |
 
-Every agent and skill file carries a `version:` line (all 1.0.0 in this release). Agents also name a model tier; the author ran them on Claude Sonnet 5.5 (fast), Claude Fable 5.1 (careful) and Claude Opus 5.5 (high stakes). Full table and how to remap: [docs/versions.md](docs/versions.md). What each pack does, plus the advanced agents not shipped yet: [docs/packs.md](docs/packs.md).
+Every agent and skill file carries a `version:` line (1.0.0; onboard is 2.0.0 since release 1.1.0). Agents also name a model tier; the author ran them on Claude Sonnet 5.5 (fast), Claude Fable 5.1 (careful) and Claude Opus 5.5 (high stakes). Full table and how to remap: [docs/versions.md](docs/versions.md). What each pack does, plus the advanced agents not shipped yet: [docs/packs.md](docs/packs.md).
 
 ## What to tell it about you
 
@@ -229,7 +231,7 @@ The [prompt guide](docs/prompting-guide.md) has 70 ready prompts grouped by job:
 │   └── templates/         # daily, project hub, concept, resource, ticket
 ├── skills/                # 15 portable Claude skills (rename to SKILL.md to install)
 ├── code/                  # small Python tools: capability scan, ticket sweep, link suggester
-├── .claude/commands/      # 18 slash commands
+├── .claude/commands/      # 20 slash commands
 ├── packs/                 # optional sub-brains: job-search, linkedin, trading
 ├── docs/                  # everything you are reading about
 └── examples/              # a fictional owner's profile, hub, ticket, journal
@@ -255,7 +257,7 @@ More, including a confidentiality section for consultants, lawyers and accountan
 | [Concepts](docs/concepts.md) | Understand layers, routing, tickets, sub-brains, with diagrams |
 | [Onboarding interview](docs/onboarding-interview.md) | See every question it will ask you and where each answer goes |
 | [Agents](docs/agents.md) | Know what each of the 14 agents does, when, and how to call it |
-| [Skills](docs/skills.md) | Browse all 39 core skills by group |
+| [Skills](docs/skills.md) | Browse all 40 core skills by group |
 | [Packs](docs/packs.md) | Job-search, LinkedIn and trading packs; advanced and retired agents |
 | [Versions](docs/versions.md) | File versions, model tiers, current Claude models, design history |
 | [What to tell it](docs/profile-guide.md) | What information to give about a person, and what never to give |

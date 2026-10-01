@@ -1,12 +1,13 @@
 # Skills
 
-39 skills in four groups. A skill is a written procedure for one kind of task; an agent may use several. Each file has a trigger, inputs, outputs, when to use, when NOT to use, the procedure, and an example.
+40 skills in four groups. A skill is a written procedure for one kind of task; an agent may use several. Each file has a trigger, inputs, outputs, when to use, when NOT to use, the procedure, and an example.
 
 ```mermaid
 mindmap
-  root((39 skills))
-    Vault 12
+  root((40 skills))
+    Vault 13
       onboard
+      calibrate
       context-loader
       capture
       process-inbox
@@ -56,7 +57,8 @@ The daily machinery of a second brain.
 
 | Skill | What it does | Say | Produces |
 |---|---|---|---|
-| onboard | Nine-block interview that writes your profile, rules and first project hubs | `/onboard` | USER_PROFILE, BOUNDARIES owner section, hubs |
+| onboard | First-run interview (quick, standard or deep), suggested answers, resumable, ends with a portrait of how you work | automatic on first run, `/onboard` | USER_PROFILE, BOUNDARIES owner section, hubs, voice, portrait |
+| calibrate | Two or three tuning questions a week, based on what actually happened | `/calibrate`, after `/weekly` | Approved profile updates |
 | context-loader | Session-start ritual: loads foundation, profile, rules, inbox count, journal status | `/cold-start` | One-line status |
 | capture | Drops a thought or link into the Inbox with frontmatter, no filing decisions | `/capture ...`, "capture this" | `00-Inbox/YYYY-MM-DD slug.md` |
 | process-inbox | Proposes a home for every Inbox item; moves on approval | `/inbox` | Empty Inbox |

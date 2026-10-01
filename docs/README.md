@@ -13,7 +13,7 @@ Start at the top and stop when you have what you need.
 | 7 | [Commands](commands.md) | Every slash command with examples |
 | 8 | [Prompt guide](prompting-guide.md) | Write better requests; 70 ready prompts by role |
 | 9 | [Agents](agents.md) | What each of the 14 agents does and how to call it |
-| 10 | [Skills](skills.md) | All 39 core skills by group, and how they chain |
+| 10 | [Skills](skills.md) | All 40 core skills by group, and how they chain |
 | 11 | [Packs](packs.md) | Job-search, LinkedIn and trading packs, advanced and retired agents |
 | 12 | [Versions](versions.md) | File versions, model tiers and current Claude models |
 | 13 | [Workflows](workflows.md) | Daily, weekly, project, research, writing, decks, backup |

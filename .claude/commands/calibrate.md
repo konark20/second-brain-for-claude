@@ -1,0 +1,1 @@
+Run a short tuning round with 99-Meta/skills/vault/calibrate.md: at most three questions, evidence first (what you noticed this week), suggested answers as options, show the diff to USER_PROFILE or 99-Meta/onboarding/portrait.md and write only after yes. Log one journal line.

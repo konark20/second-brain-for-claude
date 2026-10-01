@@ -1,3 +1,5 @@
-Run the onboarding interview for a new owner. Read 99-Meta/skills/vault/onboard.md and follow it exactly, using the question bank in docs/onboarding-interview.md.
+Run the onboarding interview. Read 99-Meta/skills/vault/onboard.md and follow it exactly, using 99-Meta/onboarding/questions.yaml and 99-Meta/onboarding/progress.yaml.
 
-Ask one block at a time. Show the exact lines before writing each file. Never write ID numbers, passwords, bank details or client financials. BOUNDARIES changes need the owner's explicit yes. Finish with a brief-format summary and the first-win task.
+Arguments after /onboard: quick | standard | deep | resume | redo <module id>. With none: if progress is not_started, give the welcome in 99-Meta/onboarding/welcome.md; if in_progress, offer to resume where it stopped.
+
+One question at a time, with suggested answers as options and "or tell me in your own words". Save progress after every answer. Show exact lines before writing any file. BOUNDARIES changes need an explicit yes. Never ask about or store health, religion, politics, finances, ID numbers or passwords. End with the portrait and the first-win task.

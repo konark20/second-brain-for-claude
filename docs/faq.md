@@ -26,7 +26,13 @@ Yes. `AGENTS.md` gives other assistants the same rules. Use `ACTIVE_SESSION.md` 
 It skipped the boot. In Claude Code use `/brain <task>`. Elsewhere paste the boot prompt at the start of the conversation. You can also just say "route that through the skill map".
 
 **Claude says USER_PROFILE has placeholders.**
-You have not onboarded yet, or skipped questions. Run `/onboard`, or "redo block 2".
+You have not onboarded yet, or skipped questions. Run `/onboard`, or `/onboard redo communication`.
+
+**I stopped the interview halfway.**
+Nothing is lost. Progress is saved after every answer; next time the brain offers to resume, or type `/onboard resume`.
+
+**The interview did not start by itself.**
+In Claude Code, check that `.claude/settings.json` is present and Python is installed (the start-up hook runs a tiny Python script). Elsewhere, paste the boot prompt; `CLAUDE.md` tells Claude to check `99-Meta/onboarding/progress.yaml` first.
 
 **Slash commands do not appear.**
 They only exist in Claude Code, and only when you start `claude` from the vault root. Everywhere else, say the command in words.

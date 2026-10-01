@@ -32,7 +32,7 @@ flowchart TB
 
 | App | Best for | Notes |
 |---|---|---|
-| Claude Code | People comfortable in a terminal; the full experience | Loads `CLAUDE.md` automatically; the 18 slash commands work; can run the Python tools |
+| Claude Code | People comfortable in a terminal; the full experience | Loads `CLAUDE.md` automatically; the 20 slash commands work; can run the Python tools |
 | Claude desktop app | Everyone else | Connect the vault folder to a conversation, paste the boot prompt; can read and write files |
 | claude.ai Project | Trying it out, or read-mostly use | Upload the operating files; it cannot write to your disk |
 

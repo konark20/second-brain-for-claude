@@ -34,7 +34,7 @@ tags: [index]
 - [[capability-auditor]]: audits the toolkit
 
 ## #skill/vault
-[[onboard]], [[context-loader]], [[capture]], [[process-inbox]], [[daily]], [[weekly-review]], [[connect]], [[ingest-url]], [[resume]], [[lint-vault]], [[dedupe]], [[archive-stale]]
+[[onboard]], [[calibrate]], [[context-loader]], [[capture]], [[process-inbox]], [[daily]], [[weekly-review]], [[connect]], [[ingest-url]], [[resume]], [[lint-vault]], [[dedupe]], [[archive-stale]]
 
 ## #skill/workflow
 [[brief]], [[web-research]], [[council]], [[session-memory]], [[model-handoff]], [[punch-list]], [[runbook-writeback]], [[skill-sweep]]

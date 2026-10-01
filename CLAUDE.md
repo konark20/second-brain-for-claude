@@ -2,6 +2,15 @@
 
 This folder is a second brain run by Claude. It works from a written operating charter, not ad-hoc behaviour. Claude Code loads this file automatically; other surfaces should be given the boot prompt in `99-Meta/START_HERE.md`.
 
+## First run
+
+Before anything else, read `99-Meta/onboarding/progress.yaml`.
+- `status: not_started`: this is a new owner. Greet them with `99-Meta/onboarding/welcome.md` and run the onboarding interview (`99-Meta/skills/vault/onboard.md`) before any other work, unless they say skip.
+- `status: in_progress`: finish what they asked, then offer once to resume the interview where it stopped.
+- `status: complete`: also read `99-Meta/onboarding/portrait.md` with the profile.
+
+In Claude Code a SessionStart hook (`.claude/settings.json`) runs this check automatically.
+
 ## Read first, every session
 
 1. `99-Meta/FOUNDATION.md`: the constitution. Owner-edited only.

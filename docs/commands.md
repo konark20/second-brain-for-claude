@@ -1,13 +1,13 @@
 # Commands
 
-Eighteen slash commands live in `.claude/commands/`. They work in Claude Code. Each one is a thin pointer to the agent or skill file that actually holds the procedure, so the file stays the single source of truth.
+Twenty slash commands live in `.claude/commands/`. They work in Claude Code. Each one is a thin pointer to the agent or skill file that actually holds the procedure, so the file stays the single source of truth.
 
 Not using Claude Code? Say the same thing in words. "Process my inbox" routes to the same skill as `/inbox`.
 
 ```mermaid
 flowchart LR
     subgraph Start[Start and orient]
-        brain["/brain"] --- cold["/cold-start"] --- resume["/resume"] --- onboard["/onboard"]
+        brain["/brain"] --- cold["/cold-start"] --- resume["/resume"] --- onboard["/onboard"] --- calib["/calibrate"] --- portrait["/portrait"]
     end
     subgraph Daily[Daily loop]
         daily["/daily"] --- capture["/capture"] --- inbox["/inbox"] --- ingest["/ingest"]
@@ -29,8 +29,20 @@ Full boot (START_HERE, CLAUDE.md, FOUNDATION, USER_PROFILE, BOUNDARIES, ACTIVE_S
 /brain turn my notes from today's three client calls into action items per client
 ```
 
-### `/onboard`
-Runs the nine-block onboarding interview. See [onboarding-interview.md](onboarding-interview.md). Also used later to redo one block: `/onboard redo block 4`.
+### `/onboard [quick | standard | deep | resume | redo <module>]`
+Runs the first-run interview. On a fresh vault it starts by itself; this command starts or resumes it. One question at a time, suggested answers, progress saved after every answer, a portrait at the end. See [onboarding-interview.md](onboarding-interview.md).
+
+```text
+/onboard deep
+/onboard resume
+/onboard redo communication
+```
+
+### `/calibrate`
+Two or three tuning questions, each based on something that happened this week (a correction you keep making, a skipped question). Changes shown as diffs first.
+
+### `/portrait`
+Shows the one-page "how I work with you" and asks what is wrong or missing.
 
 ### `/cold-start`
 One-line health check: `loaded: profile ok, boundaries ok, inbox 4 items (oldest 2d), journal exists`.

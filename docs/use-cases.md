@@ -4,7 +4,7 @@ The same engine, set up differently by the onboarding interview. Each profile be
 
 ```mermaid
 flowchart TB
-    CORE[(Same engine:<br/>14 agents, 39 skills,<br/>boundaries, loop)]
+    CORE[(Same engine:<br/>14 agents, 40 skills,<br/>boundaries, loop)]
     CORE --> P1[Partner / senior manager]
     CORE --> P2[Consultant]
     CORE --> P3[Tax, legal, compliance]
